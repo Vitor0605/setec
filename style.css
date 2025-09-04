@@ -44,30 +44,48 @@ body {
     height: 350px;
     margin: auto;
     border-radius: 5px;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.5);
 }
 
 .s2 {
     display: grid;
     margin: 0px 20px 20px 20px;
     background-color: rgba(110, 110, 110, 0.950);
-    padding: 50px;
+    padding: 40px;
     border-radius: 0 0 20px 20px;
     z-index: 1;
-    padding-top: 120px;
+    padding-top: 60px;
 }
 
 .linha1 {
     display: grid;
     grid-template-columns: 1fr 1.4fr;
-    margin-bottom: 10vh;
     margin-right: 20px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .linha2 {
     display: grid;
     grid-template-columns: 1.4fr 1fr;
-    margin-bottom: 10vh;
-    margin-left: 20px;
+    margin-right: 20px;
+    border-bottom: 2px dotted black;
+    padding-bottom: 60px;
+    padding-top: 50px;
+}
+
+.linha2 h1 {
+    margin-left: 30px;
+}
+
+.ulinha {
+    margin-left: 30px;
+    display: grid;
+    grid-template-columns: 1.4fr 1fr;
+    margin-right: 20px;
+    padding-bottom: 60px;
+    padding-top: 50px;
 }
 
 .video {
@@ -75,7 +93,11 @@ body {
     width: 560px;
     height: 315px;
     border-radius: 10px;
-    box-shadow: 2px solid black;
+    box-shadow: 5px 5px 8px rgba(0, 0, 0, 0.253);
+}
+
+.video:hover {
+  outline: 12px solid rgba(9, 1, 39, 0.226);
 }
 
 .texto-video {
