@@ -96,6 +96,27 @@ section {
     text-align: center;
 }
 
+.s3 {
+    margin: 20px;
+    background-color: rgba(160, 160, 160, 0.95);
+    padding: 5%;
+    border-radius: 20px;
+    line-height: 1.4;
+    font-size: 1.1rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    padding-bottom: 6rem;
+    padding-top: 5rem;
+}
+
+.s3 h1{
+    font-size: 1.6rem;
+}
+
+.s3 img{
+    margin: 4rem;
+}
+
 /* Responsividade telas pequenas
 @media (max-width: 1024px) {
     .s1 {
